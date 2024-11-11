@@ -1,0 +1,41 @@
+.mainpage {
+  padding: 0px;
+  margin: 0;
+  height: 100vh;
+  background-image: url('/level1/floor5.jpg');
+  background-size: 500px;
+
+  background-repeat: repeat-x;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+}
+.gamebox {
+  margin: 5px auto;
+}
+
+.gardenDiv2 {
+  background-color: rgb(52, 48, 48);
+  width: 510px;
+  height: 460px;
+  position: absolute;
+  top: -3px;
+  left: -5;
+}
+
+.gardenDiv3 {
+  background-color: rgb(52, 48, 48);
+  width: 510px;
+  height: 460px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -10px;
+  margin-top: -3px;
+
+  z-index: 0;
+}

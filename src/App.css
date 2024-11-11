@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+.mainbody {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+}
+nav {
+  height: 10vh;
+  width: 100%;
+ 
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+nav img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+nav .btns {
+  display: flex;
+  gap: 20px;
+}

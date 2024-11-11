@@ -1,0 +1,122 @@
+.gameMainHead{
+
+  height:40px ;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+
+.gameHeadRight {
+  margin-top: 10px;
+    width: 200px;
+  height: 40px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: rgb(81, 34, 34);
+}
+.cashPoint {
+  color: #ffd43b;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 15px;
+  gap:15px;
+
+}
+.timediv{
+  color:rgb(240, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:15px;
+
+}
+
+.gameHeadLeft {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: rgb(81, 34, 34);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.gameHeadLeft h1{
+  display: inline;
+}
+.gameLevel{
+ color:white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:20px;
+}
+
+.modalMainBox{
+  position: absolute;
+  top:60px;
+  z-index: 5;
+ 
+ 
+}
+.modalBox{
+  text-align: center;
+  width: 50%;
+
+}
+.modelFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;gap:20px;
+}
+
+.modelBoxInner{
+ width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-block:5px;
+  box-sizing: border-box;
+  background-color: #ffd43b;
+}
+.gameOverDesc{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+  gap:10px;
+  width: 300px;
+  height: 120px;
+  color:rgb(0, 0, 0);
+  font-size: 15px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.performanceName{
+  color:rgb(9, 143, 36);
+  font-weight: 700;
+ 
+
+}
+
+.gameOverBtns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  width: 150px;
+  gap:10px;
+}

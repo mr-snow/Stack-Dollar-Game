@@ -1,0 +1,11 @@
+.h2div{
+    color: white;
+   margin-left: 20px;
+   font-size: 150%;
+    box-shadow: 10px 10px 10px 10px black;
+    text-align: center;margin-bottom: 20px;
+}
+.mainlevels{
+    height: 100%;
+    width: 100%;
+}

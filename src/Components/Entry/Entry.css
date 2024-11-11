@@ -1,0 +1,11 @@
+.entryDiv {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 8px solid rgba(10, 78, 20, 0.66);
+}
+.entryicon {
+    color: rgb(132, 192, 42);
+}
