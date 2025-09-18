@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "deploy": "gh-pages -d dist -b stack-gh-pages"
+    "deploy": "gh-pages -d dist -b stack-gh-pages"
   },
   "dependencies": {
     "antd": "^5.21.6",
