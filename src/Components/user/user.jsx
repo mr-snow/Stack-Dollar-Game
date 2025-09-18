@@ -9,7 +9,7 @@ function User(props) {
         left:props.value.x,
         height: props.value.user_Circle,
         width: props.value.user_Circle,
-        backgroundImage: 'url("/user.png")',
+        backgroundImage: 'url("/Stack-Dollar-Game/user.png")',
         backgroundSize:'cover',
         borderRadius:'50%',
         position:'absolute',

@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <>
       <nav>
-          <img src="user.png" alt="" />
+          <img src="/Stack-Dollar-Game/user.png" alt="" />
 
           <h2>Sack Dollar</h2>
 
