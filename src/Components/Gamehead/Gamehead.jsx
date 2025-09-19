@@ -31,7 +31,7 @@ function Gamehead(props) {
     console.log('restarted');
     setOpen(false);
     setLoading(false);
-    next('/levels/level1');
+    next('/level1');
   };
   const calculatePerform = (maxTime, playerTime, maxPoint, playerPoint) => {
     playerTime = playerTime - 1800;
