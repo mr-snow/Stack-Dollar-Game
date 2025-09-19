@@ -24,8 +24,8 @@ const maxTimes = 45;
 const ownerSpeed = 3;
 const ownerSpeed2 = 5;
 const wallSize = 100;
-const wallImage = `src/assets/level1/floor3.jpg`;
-const mainTileImage = `src/assets/level1/floor6.jpg`;
+const wallImage = `/src/assets/level1/floor3.jpg`;
+const mainTileImage = `/assets/level1/floor6.jpg`;
 
 function Level1() {
   const walls = [
@@ -63,7 +63,7 @@ function Level1() {
       y: 40,
       width: coinSize,
       height: coinSize,
-      image: 'src/assets/level1/coin3.png',
+      image: '/level1/coin3.png',
       point: 30,
       zIndex: 10,
       color: 'black',
@@ -74,7 +74,7 @@ function Level1() {
       y: 40,
       width: coinSize,
       height: coinSize,
-      image: 'src/assets/level1/coin3.png',
+      image: '/assets/level1/coin3.png',
       point: 10,
       zIndex: 10,
       color: 'black',
@@ -86,7 +86,7 @@ function Level1() {
       y: 340,
       width: coinSize,
       height: coinSize,
-      image: 'src/assets/level1/coin3.png',
+      image: '../assets/level1/coin3.png',
       point: 10,
       zIndex: 10,
       color: 'black',
@@ -97,7 +97,7 @@ function Level1() {
       y: 240,
       width: coinSize,
       height: coinSize,
-      image: 'src/assets/level1/coin3.png',
+      image: '../../assets/level1/coin3.png',
       point: 10,
       zIndex: 10,
       color: 'black',
