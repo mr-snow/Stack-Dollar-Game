@@ -13,6 +13,8 @@ import Entry from '../Entry/Entry';
 import Exit from '../Exit/Exit';
 import Carpet from '../Carpet/Carpet';
 import HomeItems from '../HomeItems/HomeItems';
+import wallImage from '../../assets/level1/floor3.jpg';
+import mainTileImage from '../../assets/level1/floor6.jpg';
 
 const boxSize = 500;
 const userCircle = 40;
@@ -24,8 +26,6 @@ const maxTimes = 45;
 const ownerSpeed = 3;
 const ownerSpeed2 = 5;
 const wallSize = 100;
-const wallImage = `/Stack-Dollar-Game/level1/floor3.jpg`
-const mainTileImage = `/Stack-Dollar-Game/level1/floor6.jpg`
 
 function Level1() {
   const walls = [
