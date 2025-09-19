@@ -2,6 +2,7 @@ import React from 'react';
 import './navbar.css';
 import { Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
+import userLogo from '../../assets/levels/user.png';
 
 function Navbar() {
   const homenavigate = useNavigate();
@@ -17,6 +18,7 @@ function Navbar() {
     <>
       <nav>
         <img src="/Stack-Dollar-Game/user.png" alt="" />
+        <img src={userLogo} alt="" />
         <h2>Sack Dollar</h2>
         <i className="fa-solid fa-sack-dollar fa-shake"></i>
         <div className="btns">
