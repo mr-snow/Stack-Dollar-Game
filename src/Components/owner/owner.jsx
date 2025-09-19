@@ -7,8 +7,8 @@ function Owner(props) {
       style={{
         height: props.value.radius * 2,
         width: props.value.radius * 2,
-
         borderRadius: '50%',
+         backgroundImage: 'url("src/assets/levels/user.png")',
         position: 'absolute',
         top: props.value.top,
         left: props.value.left,

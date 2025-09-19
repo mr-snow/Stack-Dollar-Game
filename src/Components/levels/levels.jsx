@@ -37,7 +37,7 @@ function Levels() {
                 margin: 'auto',
                 marginBlock: '40px',
                 boxShadow: '0px 0px 8px 5px white',
-                backgroundImage: 'url("robbe1.png")',
+                backgroundImage: 'url("/Stack-Dollar-Game/robbe1.png")',
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
               }}
@@ -61,7 +61,7 @@ function Levels() {
                 margin: 'auto',
                 marginBlock: '40px',
                 boxShadow: '0px 0px 8px 5px white',
-                backgroundImage: 'url("/robbe2.png")',
+                backgroundImage: 'url("/Stack-Dollar-Game/robbe2.png")',
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
               }}
@@ -84,7 +84,7 @@ function Levels() {
                 margin: 'auto',
                 marginBlock: '40px',
                 boxShadow: '0px 0px 8px 5px white',
-                backgroundImage: 'url("/robb3.png")',
+                backgroundImage: 'url("/Stack-Dollar-Game/robb3.png")',
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
               }}
