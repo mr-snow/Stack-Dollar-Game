@@ -24,7 +24,7 @@ const maxTimes = 45;
 const ownerSpeed = 3;
 const ownerSpeed2 = 5;
 const wallSize = 100;
-const wallImage = `/src/assets/level1/floor3.jpg`;
+const wallImage = `Stack-Dollar-Game/level1/floor3.jpg`;
 const mainTileImage = `/assets/level1/floor6.jpg`;
 
 function Level1() {
