@@ -24,13 +24,8 @@ const maxTimes = 45;
 const ownerSpeed = 3;
 const ownerSpeed2 = 5;
 const wallSize = 100;
-<<<<<<< HEAD
-const wallImage = 'Stack-Dollar-Game/level1/floor3.jpg';
-const mainTileImage = 'Stack-Dollar-Game/level1/floor6.jpg';
-=======
 const wallImage = `/src/assets/level1/floor3.jpg`;
 const mainTileImage = `/assets/level1/floor6.jpg`;
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
 
 function Level1() {
   const walls = [
@@ -68,11 +63,7 @@ function Level1() {
       y: 40,
       width: coinSize,
       height: coinSize,
-<<<<<<< HEAD
-      image: 'Stack-Dollar-Game/level1/coin3.png',
-=======
       image: '/level1/coin3.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
       point: 30,
       zIndex: 10,
       color: 'black',
@@ -83,11 +74,7 @@ function Level1() {
       y: 40,
       width: coinSize,
       height: coinSize,
-<<<<<<< HEAD
-      image: 'Stack-Dollar-Game/level1/coin3.png',
-=======
       image: '/assets/level1/coin3.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
       point: 10,
       zIndex: 10,
       color: 'black',
@@ -99,11 +86,7 @@ function Level1() {
       y: 340,
       width: coinSize,
       height: coinSize,
-<<<<<<< HEAD
-      image: 'src/assets/level1/coin3.png',
-=======
       image: '../assets/level1/coin3.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
       point: 10,
       zIndex: 10,
       color: 'black',
@@ -114,11 +97,7 @@ function Level1() {
       y: 240,
       width: coinSize,
       height: coinSize,
-<<<<<<< HEAD
-      image: 'Stack-Dollar-Game/level1/coin3.png',
-=======
       image: '../../assets/level1/coin3.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
       point: 10,
       zIndex: 10,
       color: 'black',
@@ -129,11 +108,7 @@ function Level1() {
       y: 220,
       width: coinSize,
       height: coinSize,
-<<<<<<< HEAD
-      image: 'Stack-Dollar-Game/level1/coin3.png',
-=======
       image: 'src/assets/level1/coin3.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
       point: 10,
       zIndex: 10,
       color: 'black',
@@ -144,11 +119,7 @@ function Level1() {
       y: 40,
       width: coinSize,
       height: coinSize,
-<<<<<<< HEAD
-      image: 'Stack-Dollar-Game/level1/coin3.png',
-=======
       image: 'src/assets/level1/coin3.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
       point: 30,
       zIndex: 10,
       color: 'black',
@@ -878,11 +849,7 @@ function Level1() {
               top: 375,
               left: 58,
               zIndex: 2,
-<<<<<<< HEAD
-              image: 'Stack-Dollar-Game/level1/carpet1.0.png',
-=======
               image: 'src/assets/level1/carpet1.0.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '62px',
               rotate: 0,
@@ -893,13 +860,8 @@ function Level1() {
             value={{
               top: 20,
               left: 28,
-<<<<<<< HEAD
-              zIndex: 3,
-              image: 'Stack-Dollar-Game/level1/carpet1.0.png',
-=======
               zIndex: 2,
               image: 'src/assets/level1/carpet1.0.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '62px',
             }}
@@ -910,11 +872,7 @@ function Level1() {
               top: 220,
               left: 220,
               zIndex: 2,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/carpet1.0.png',
-=======
-              image: 'src/assets/level1/carpet1.0.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '290px',
               height: '150px',
               opacity: 0.7,
@@ -926,11 +884,7 @@ function Level1() {
               top: 410,
               left: 82,
               zIndex: 1,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/flower1.png',
-=======
-              image: 'src/assets/level1/flower1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '80px',
             }}
@@ -940,11 +894,7 @@ function Level1() {
               top: 400,
               left: 8,
               zIndex: 1,
-<<<<<<< HEAD
-              image: 'Stack-Dollar-Game/level1/flower1.png',
-=======
               image: 'src/assets/level1/flower1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '80px',
             }}
@@ -955,11 +905,7 @@ function Level1() {
               top: 410,
               left: 8,
               zIndex: 1,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/flower1.png',
-=======
-              image: 'src/assets/level1/flower1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '80px',
             }}
@@ -970,11 +916,7 @@ function Level1() {
               top: -24,
               left: 60,
               zIndex: 1,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/flower1.png',
-=======
-              image: 'src/assets/level1/flower1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '80px',
             }}
@@ -984,11 +926,7 @@ function Level1() {
               top: -21,
               left: -4,
               zIndex: 1,
-<<<<<<< HEAD
-              image: 'Stack-Dollar-Game/level1/flower1.png',
-=======
               image: 'src/assets/level1/flower1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '80px',
             }}
@@ -999,11 +937,7 @@ function Level1() {
               top: 20,
               left: 330,
               zIndex: 2,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/bed1.png',
-=======
-              image: 'src/assets/level1/bed1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '80px',
             }}
@@ -1013,11 +947,7 @@ function Level1() {
               top: 210,
               left: 328,
               zIndex: 3,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/bed1.png',
-=======
-              image: 'src/assets/level1/bed1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '80px',
               rotate: 270,
@@ -1029,11 +959,7 @@ function Level1() {
               top: 44,
               left: 150,
               zIndex: 2,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/table1.png',
-=======
-              image: 'src/assets/level1/table1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '100px',
               height: '100px',
               rotate: 90,
@@ -1046,11 +972,7 @@ function Level1() {
               top: 172,
               left: 105,
               zIndex: 2,
-<<<<<<< HEAD
-              image: 'Stack-Dollar-Game/level1/sofa1.png',
-=======
               image: 'src/assets/level1/sofa1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '100px',
               height: '100px',
               rotate: 0,
@@ -1062,11 +984,7 @@ function Level1() {
               top: 240,
               left: -18,
               zIndex: 2,
-<<<<<<< HEAD
-              image: 'Stack-Dollar-Game/level1/sofa1.png',
-=======
               image: 'src/assets/level1/sofa1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '100px',
               height: '100px',
               rotate: 270,
@@ -1078,11 +996,7 @@ function Level1() {
               top: 282,
               left: 105,
               zIndex: 2,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/sofa1.png',
-=======
-              image: 'src/assets/level1/sofa1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '100px',
               height: '100px',
               rotate: 180,
@@ -1094,11 +1008,7 @@ function Level1() {
               top: 20,
               left: 420,
               zIndex: 2,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/table3.png',
-=======
-              image: 'src/assets/level1/table3.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '90px',
               height: '90px',
               rotate: 90,
@@ -1110,11 +1020,7 @@ function Level1() {
               top: 220,
               left: 420,
               zIndex: 2,
-<<<<<<< HEAD
-              image: 'Stack-Dollar-Game/level1/table3.png',
-=======
               image: 'src/assets/level1/table3.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '90px',
               height: '90px',
               rotate: 90,
@@ -1126,11 +1032,7 @@ function Level1() {
               top: 25,
               left: 85,
               zIndex: 2,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/table2.png',
-=======
-              image: 'src/assets/level1/table2.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '60px',
               height: '60px',
               rotate: 90,
@@ -1142,11 +1044,7 @@ function Level1() {
               top: 30,
               left: 290,
               zIndex: 2,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/box1.png',
-=======
-              image: 'src/assets/level1/box1.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '40px',
               height: '40px',
               rotate: 90,
@@ -1158,11 +1056,7 @@ function Level1() {
               top: 260,
               left: 350,
               zIndex: 2,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/sofa2.png',
-=======
-              image: 'src/assets/level1/sofa2.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '250px',
               height: '190px',
               rotate: 0,
@@ -1174,11 +1068,7 @@ function Level1() {
               top: -20,
               left: 110,
               zIndex: 1,
-<<<<<<< HEAD
               image: 'Stack-Dollar-Game/level1/flower2.png',
-=======
-              image: 'src/assets/level1/flower2.png',
->>>>>>> 66db3425d15da523ed9ba3778da966c7dc6fb7d4
               width: '80px',
               height: '250px',
               rotate: 0,
