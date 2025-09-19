@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <>
       <nav>
-        <img src="/Stack-Dollar-Game/user.png" alt="" />
+        <img src={userLogo} alt="" />
         <h2>Sack Dollar</h2>
         <i className="fa-solid fa-sack-dollar fa-shake"></i>
         <div className="btns">

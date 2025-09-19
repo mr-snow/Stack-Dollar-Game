@@ -1,16 +1,16 @@
 import React from 'react';
 import './levels.css';
-import {  useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
+import robbe1 from '../../assets/levels/robbe1.png';
+import robbe2 from '../../assets/levels/robbe2';
+import robb3 from '../../assets/levels/robb3';
 
 import { Carousel, Card } from 'antd';
-
-
 
 function Levels() {
   const navigate = useNavigate();
   const navigate2 = useNavigate();
- 
 
   const onLevel1 = () => {
     navigate('/level1');
@@ -19,11 +19,10 @@ function Levels() {
     navigate2('/level2');
   };
 
- 
   return (
     <>
       <div className="mainlevels">
-        <Navbar/>
+        <Navbar />
         <Carousel arrows infinite={false}>
           <div>
             <Card
@@ -37,7 +36,7 @@ function Levels() {
                 margin: 'auto',
                 marginBlock: '40px',
                 boxShadow: '0px 0px 8px 5px white',
-                backgroundImage: 'url("/Stack-Dollar-Game/robbe1.png")',
+                backgroundImage: `url(${robbe1})`,
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
               }}
@@ -61,7 +60,7 @@ function Levels() {
                 margin: 'auto',
                 marginBlock: '40px',
                 boxShadow: '0px 0px 8px 5px white',
-                backgroundImage: 'url("/Stack-Dollar-Game/robbe2.png")',
+                backgroundImage: `url(${robbe2})`,
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
               }}
@@ -84,7 +83,7 @@ function Levels() {
                 margin: 'auto',
                 marginBlock: '40px',
                 boxShadow: '0px 0px 8px 5px white',
-                backgroundImage: 'url("/Stack-Dollar-Game/robb3.png")',
+                backgroundImage: `url(${robb3})`,
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
               }}
