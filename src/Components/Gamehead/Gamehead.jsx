@@ -31,7 +31,7 @@ function Gamehead(props) {
     console.log('restarted');
     setOpen(false);
     setLoading(false);
-    window.location.reload();
+    window.location.href = '/levels/level1';
   };
   const calculatePerform = (maxTime, playerTime, maxPoint, playerPoint) => {
     playerTime = playerTime - 1800;
@@ -67,19 +67,21 @@ function Gamehead(props) {
   return (
     <>
       <div className="gameMainHead">
-      <Card className='gameHeadLeft'>
-         <div className='gameLevel'>
-          <div>
-          <h1>Level &nbsp;1</h1>
-          </div>
-          
-          <div>
-          <i className="fa-solid fa-angles-left fa-xl fa-beat" style={{color:'#74C0FC'}} onClick={onNext}></i>
-          </div>
-   
-         </div>
-        </Card>
+        <Card className="gameHeadLeft">
+          <div className="gameLevel">
+            <div>
+              <h1>Level &nbsp;1</h1>
+            </div>
 
+            <div>
+              <i
+                className="fa-solid fa-angles-left fa-xl fa-beat"
+                style={{ color: '#74C0FC' }}
+                onClick={onNext}
+              ></i>
+            </div>
+          </div>
+        </Card>
 
         <Card className="gameHeadRight">
           <div className="cashPoint">
@@ -104,13 +106,9 @@ function Gamehead(props) {
             </div>
           </div>
         </Card>
-
-       
       </div>
 
       <div className="modalMainBox">
-      
-
         <Modal
           className="modalBox"
           title={<h2 style={{ color: 'red' }}>Game Over</h2>}
