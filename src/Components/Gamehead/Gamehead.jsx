@@ -31,7 +31,7 @@ function Gamehead(props) {
     console.log('restarted');
     setOpen(false);
     setLoading(false);
-    window.location.href = '/levels/level1';
+    window.location.href = '/Stack-Dollar-Game/levels/level1';
   };
   const calculatePerform = (maxTime, playerTime, maxPoint, playerPoint) => {
     playerTime = playerTime - 1800;
