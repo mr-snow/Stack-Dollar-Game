@@ -19,7 +19,7 @@ function Navbar() {
     <>
       <nav>
         <img src="src/assets/levels/user.png" alt="" />
-          <h2>Sack Dollar3</h2>
+          <h2>Sack Dollar4</h2>
           <i className="fa-solid fa-sack-dollar fa-shake"></i>
           <div className="btns">
             <Button ghost onClick={goHome}>
