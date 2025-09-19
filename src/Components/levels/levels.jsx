@@ -3,8 +3,8 @@ import './levels.css';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import robbe1 from '../../assets/levels/robbe1.png';
-import robbe2 from '../../assets/levels/robbe2';
-import robb3 from '../../assets/levels/robb3';
+import robbe2 from '../../assets/levels/robbe2.png';
+import robb3 from '../../assets/levels/robb3.png';
 
 import { Carousel, Card } from 'antd';
 
